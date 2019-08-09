@@ -74,8 +74,37 @@
 /*------------------------------------------------------------------------------------------- Prices --------*/
 
 .prices-container {
-    height: 100vh;
+    height: 200vh;
     background: #daf0f9;
+}
+
+.menu-items {
+    margin-bottom: 10px;
+    display: block;
+    clear: both;
+}
+
+.menu-items .key,
+.menu-items .value {
+    padding-right: 10px;
+    display: inline-block;
+}
+
+.menu-items .key p,
+.menu-items .value p {
+    margin: 0;
+}
+
+.menu-items .key {
+    width: 60%;
+    margin-right: 10px;
+    padding-top: 2px;
+    vertical-align: top;
+}
+
+.menu-items .value {
+    width: 30%;
+    position: relative;
 }
 
 /*----------------------------------------------------------------------------------------- Media Queries ---*/
@@ -135,5 +164,16 @@
     align-items: center;
     justify-content: center;
     position: relative;
+}
+.prices-container {
+    height: 100vh;
+    background: #daf0f9;
+}
+}
+
+@media(max-width: 370px) {
+    .prices-container {
+    height: 250vh;
+    background: #daf0f9;
 }
 }
