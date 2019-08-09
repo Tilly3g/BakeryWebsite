@@ -1,0 +1,139 @@
+/*----------------------------------------------------------------------------------------- Header ---*/
+
+.header-container {
+    height: 100vh;
+    background: url("../images/Bakery.jpg") no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.header {
+    color: #f8f9fa;
+}
+
+.intro {
+    color: #f8f9fa;
+    margin-top: 70px;
+}
+
+/*----------------------------------------------------------------------------------------- Delivery to your door ---*/
+
+.delivery-container {
+    height: 100vh;
+    background: url("../images/orange_cupcake_og.jpg") no-repeat top center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+/*----------------------------------------------------------------------------------------- Catering ---*/
+
+.catering-container {
+    height: 100vh;
+    background: url("../images/brownies_og.jpg") no-repeat bottom left fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+/*----------------------------------------------------------------------------------------- Subscription ---*/
+
+.subscription-container {
+    height: 100vh;
+    background: url("../images/choc_cake.jpg") no-repeat center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+/*------------------------------------------------------------------------------------------- Prices --------*/
+
+.prices-container {
+    height: 100vh;
+    background: #daf0f9;
+}
+
+/*----------------------------------------------------------------------------------------- Media Queries ---*/
+
+@media(min-width: 992px) {
+    .header-container {
+        height: 100vh;
+        background: url("../images/bakery.jpg") no-repeat bottom right fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+}
+
+@media(min-width: 720px) {
+    .delivery-container {
+        height: 100vh;
+        background: url("../images/orange_cupcakes.jpg") no-repeat bottom center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+    .catering-container {
+        height: 100vh;
+        background: url("../images/brownies.jpg") no-repeat bottom center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+    .subscription-container {
+    height: 100vh;
+    background: url("../images/choc.jpg") no-repeat center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+}
