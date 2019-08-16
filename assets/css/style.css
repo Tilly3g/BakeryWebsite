@@ -1,3 +1,65 @@
+/*----------------------------------------------------------------------------------------- Body Style---*/
+
+body {
+    font-family: "Alegreya", sans-serif;
+}
+
+.logo {
+    font-family: "Dancing Script", sans-serif;
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+h2 {
+    font-family: "Dancing Script", sans-serif;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.3);
+}
+
+.overlay-sm {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.bring-front {
+    z-index: 1;
+}
+
+.text-colour {
+    color: #f8f9fa;
+}
+/*----------------------------------------------------------------------------------------- Navbar---*/
+
+.navbar-style {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    background-color: #f8f9fa;
+}
+
+.nav-style {
+    font-family: "Indie Flower", sans-serif;
+    font-weight: bolder;
+}
+
+.contact-link {
+    font-family: "Indie Flower", sans-serif;
+    font-weight: bolder;
+    color: #000
+}
 /*----------------------------------------------------------------------------------------- Header ---*/
 
 .header-container {
@@ -16,11 +78,15 @@
 
 .header {
     color: #f8f9fa;
+    font-family: "Dancing Script", sans-serif;
+    font-weight: bolder;
+    font-size: 90px;
 }
 
 .intro {
     color: #f8f9fa;
     margin-top: 70px;
+    font-size: 20px;
 }
 
 /*----------------------------------------------------------------------------------------- Delivery to your door ---*/
@@ -74,8 +140,37 @@
 /*------------------------------------------------------------------------------------------- Prices --------*/
 
 .prices-container {
-    height: 200vh;
+    height: 100%;
     background: #daf0f9;
+}
+
+.price-header {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.menu-subtitle {
+    font-family: "Dancing Script", sans-serif;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.bespoke-prices {
+    margin-top: 40px;
+}
+
+.delivery-price {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.catering-price {
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.catering-title {
+    font-family: "Dancing Script", sans-serif;
 }
 
 .menu-items {
@@ -105,6 +200,57 @@
 .menu-items .value {
     width: 30%;
     position: relative;
+}
+
+/*----------------------------------------------------------------------------------------- Contact form ---*/
+
+.contact-container {
+    height: 100%;
+}
+
+.contact-header {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.contact-info {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.contact-title {
+    font-family: "Dancing Script", sans-serif;
+}
+
+.center-form {
+    margin-bottom: 40px;
+}
+
+.contact-p {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.form-control {
+    margin-bottom: 5px;
+}
+
+.address {
+    font-size: larger;
+}
+
+.contact-shoutout {
+    margin-bottom: 20px;
+}
+
+/*----------------------------------------------------------------------------------------- Footer ---*/
+
+.footer-container {
+    background-color: #f8f9fa;
+}
+
+.price-pdf {
+    color: #636a71
 }
 
 /*----------------------------------------------------------------------------------------- Media Queries ---*/
@@ -165,15 +311,38 @@
     justify-content: center;
     position: relative;
 }
-.prices-container {
-    height: 100vh;
-    background: #daf0f9;
+.contact-container {
+    height: 90vh;
 }
+.intro {
+    
+    font-size: 30px;
 }
-
-@media(max-width: 370px) {
-    .prices-container {
-    height: 250vh;
-    background: #daf0f9;
+.header {
+    color: #f8f9fa;
+    font-size: 100px;
+}
+.delivery-header {
+    margin-bottom: 100px;
+}
+.catering-header {
+    margin-bottom: 100px;
+}
+.subscription-header {
+    margin-bottom: 100px;
+}
+.p-spacing {
+    margin-bottom: 70px;
+}
+.text-colour {
+    color: #000;
+}
+.overlay-sm {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0);
 }
 }
