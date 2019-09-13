@@ -44,6 +44,7 @@ User type examples:
 - In order for the above user type to achieve their goal they would just need to use the contact form or phone number to let the Bakery know the address 
   and design and they would provide a no obligation quote confirming if they are available. 
 
+I created an initial wireframe for the project using [Lucid Chart](https://www.lucidchart.com/pages/home) which is linked [here](https://www.lucidchart.com/invitations/accept/d957cfb9-1ba0-4638-98cc-c3a85941c352)
 
 ## Features
  
