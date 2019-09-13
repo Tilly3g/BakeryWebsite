@@ -1,65 +1,123 @@
-Your Project's Name
-One or two paragraphs providing an overview of your project.
+# Sky's Bakery
 
-Essentially, this part is your sales pitch.
+Sky's Bakery is a website for an online based bakery that specialises in home delivery of cakes and other deserts. They are also available to cater events
+such as party's, weddings etc as well. This can include set up and take down but also, if desired, staffing the event as well! 
 
-UX
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+Sky's bakery are very diverse and are happy to take on a challenge if you have a design in mind for the perfect cake! They can provide a quote and discuss 
+how it will work and what the finished product will look like, you can be as specific or general as you like with the details, they'll work something out!
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
+ 
+## UX
+ 
+This website is designed for customers wishing to order large quantities of baked goods for celebrations. This website makes it easy for customers to find 
+what they are looking for. For example if they are new they can scroll through the entire page with each section giving a brief explanation of what Sky’s 
+Bakery do and the menu that sticks to the top of the screen makes it easy for them to navigate back and forth between sections without having to scroll as 
+well. There’s a simple list of prices, for the customer, making it easy for them to understand the basic rate a long with delivery costs, which are fixed 
+for simplicity. But it is also clear and easy for them to contact Sky’s Bakery for their own personalised order to receive a no obligations quote.
 
-As a user type, I want to perform an action, so that I can achieve a goal.
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+For someone who is a returning customer it would be easy for them to navigate straight to the contact page if they wish to book in a delivery or retrieve 
+a quote as there is a link to the contact page that is separate from the navigation to make the process quick and easy.
 
-Features
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+User type examples:
 
-Existing Features
-Feature 1 - allows users X to achieve Y, by having them fill out Z
-...
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
+1.
+- As someone who is getting married soon, I would like to book someone to build the perfect weeding cake and deliver it to the venue on the day of the 
+  wedding. I have an idea in mind of how I would like it to look and wish to know if they can provide this and how much it would cost.
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+- In order for the above user type to achieve their goal they would need to contact Sky’s Bakery using the form or phone number provided in the contact 
+  section. They would need to include their idea and the date of their wedding. Sky’s Baker would then respond letting them know if they need more 
+  information or provide a quote if there is already enough and also to book in a tasting session if needed.
 
-Features Left to Implement
-Another feature idea
-Technologies Used
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+2.
+- I am an employer and am throwing a party for my staff. I would like there to be a range of desserts set up on a table with someone there to serve them 
+  so that things are kept tidy and the set up and take down is all sorted for me. 
 
-JQuery
-The project uses JQuery to simplify DOM manipulation.
-Testing
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+- In order for the above user type to achieve their goal, they would just need to choose which deserts they would like provided from the menu shown on the 
+  website and use the contact form or phone number to provide dates, location, number of people expected to attend and the chosen deserts. Skye’s Bakery 
+  will then get in touch with a no obligation quote and to confirm if they are available then the customer can either confirm or decline the booking from 
+  there.
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+3.
+- I am a parent throwing a party for my young child and would like a custom designed cake delivered at a certain time on the day of my child’s party in 
+  order to reduce the stress of this on the day.
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+- In order for the above user type to achieve their goal they would just need to use the contact form or phone number to let the Bakery know the address 
+  and design and they would provide a no obligation quote confirming if they are available. 
 
-Contact form:
-Go to the "Contact Us" page
-Try to submit the empty form and verify that an error message about the required fields appears
-Try to submit the form with an invalid email address and verify that a relevant error message appears
-Try to submit the form with all inputs valid and verify that a success message appears.
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+## Features
+ 
+### Existing Features
+- Navigation Bar - allows users to jump between each section of the website quickly and easily by tapping on the section they want to see. 
+- Contact form - allows users to get in touch for a quote by simply filling out the form and providing their contact details for responses.
+- Contact section - allows users to find out the address of the Bakery and also allows them to contact the bakery via other means such as email or phone 
+  calls by providing separate contact information.
+- Footer, left - Allows users to download a pdf version of the menu and prices for the bakery by tapping on the link. This also includes the contact 
+  details on the pdf.
+- Footer, right - Allows users to follow links to the bakery’s social media pages.
+- Subscription section - Allows users to subscribe to the mailing list to receive regular emails from the bakery by tapping on the subscribe button and 
+  inputing their email address.
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+### Features Left to Implement
+- In the future I would like to include a gallery on the website of custom deserts that the bakery has made and events that they have catered to show 
+- what they can do. This would involve gaining permission from the customers first as well.
+- I would also like to include a booking form that makes it easier to check availability and also, if the customer just want’s items off the existing 
+  menu delivered, a way to book this in automatically through the website. It would need to include a system that responds with a confirmation email to 
+  let the customer know the booking has gone through and a way to take payments online.
 
-Deployment
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
+## Technologies Used
 
-Different values for environment variables (Heroku Config Vars)?
-Different configuration files?
-Separate git branch?
-In addition, if it is not obvious, you should also describe how to run your code locally.
+- [Bootstrap](https://getbootstrap.com/)
+    - The project uses bootstrap for the columns feature and to be able to provide a collapsable navigation menu when viewing the website on smaller 
+      screens.
 
-Credits
-Content
-The text for section Y was copied from the Wikipedia article Z
-Media
-The photos used in this site were obtained from ...
-Acknowledgements
-I received inspiration for this project from X
+- [Fontawesome](https://fontawesome.com/)
+    - To allow the use of icons and social logos on the page.
+
+- [Google Fonts](https://fonts.google.com)
+    - To allow the use of a wider range of fonts.
+
+
+## Testing
+
+
+1. Contact form: 
+    When trying to submit the contact form, it will not allow you to submit it without entering a name, a valid email address and text in the query
+    section. An error will pop up if all the fields aren't included and also if the email entered isn't in a valid format.
+2. The 'Subscribe' modal:
+    If you try submit this form empty or with an invalid email then an error message will pop up. It will only allow you to submit it with a valid email.
+3. Navigation:
+    Each link in the navigation menu takes you to the correct corresponding part of the site and the nav bar remains at the top of the page in each 
+    section. The nav bar also collapses correctly when the screen size is smaller with a button that expands it when pressed.
+
+Screensizes and Devices:
+- I tested my project to make sure it worked correctly and all text and features fit well on every device given using 'inspect' when viewing the site
+  in a browser and also that it transitioned at appropriate points when changing the screensize gradually.
+- I tested my site worked well on a range of browsers such as Chrome, Firefox and Safari.
+- I tested my site on a range of mobile devices with different screen sizes including Moto G6 Play, Samsung s7, Samsung s8, iPhone 5s, iPhone 6 and Huawei
+  y6.
+
+
+## Deployment
+
+In order to deploy my website I navigated to my GitHub repository for the site. I clicked on settings in the top right, scrolled down to the GitHub Pages 
+section and changed Source to Master Branch. This then created the link to the published website at https://tilly3g.github.io/BakeryWebsite/.
+
+
+In order to deploy the website locally you need to go to the GitHub repository. You then need to click download and copy the link. Next go to your 
+terminal, enter the directory you wish to clone it to using the cd command and then type git clone and paste in the link. You can then enter the website
+directory again using the cd command and ls will bring up a list of the files. These can then be opened in your choice of editor.
+
+## Credits
+
+### Content
+- The code used for the full page background was copied from [CSS-TRICKS, article ‘Perfect Full Page Background Image'](https://css-tricks.com/perfect-full-page-background-image/)
+
+### Media
+- The photos used in this site were obtained from [flickr](https://www.flickr.com/photos/30478819@N08/31204647918), [flickr](https://www.flickr.com/photos/kjgarbutt/5646267965), 
+  [Max Pixel)[https://www.maxpixel.net/Baking-Cake-Baking-Baking-Powder-Cake-Baking-Soda-2589517) and [pxhere](https://pxhere.com/en/photo/708098)
+
+### Acknowledgements
+
+- I received inspiration for this project from X

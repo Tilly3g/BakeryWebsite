@@ -17,12 +17,13 @@
 
 <body>
 
-    <!-- Nav section ----------------------------------->
+    <!-- Nav section -->
 
     <nav class="navbar navbar-light navbar-expand-sm navbar-style">
         <a href="#header_section" class="navbar-brand logo">Sky's Bakery</a>
         <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span></button>
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav mr-auto nav-style">
@@ -44,80 +45,96 @@
         </div>
     </nav>
 
-    <!-- Header ------------------------------------------>
+    <main>
+        <!-- Header -->
 
-    <div class="header-container" id="header_section">
-        <div class="overlay"></div>
-        <section class="text-center bring-front">
-            <h1 class="header">Sky's Bakery</h1>
-            <hr class="block-divider">
-            <p class="intro">We deliver freshly baked goods straight to your door! We are also available to cater events such as birthdays, weddings, Coorporate events and much more!</p>
-        </section>
-    </div>
-
-    <!-- Delivery to your door ------------------------------------->
-
-    <div class="delivery-container" id="delivery_section">
-        <div class="overlay-sm"></div>
-        <section class="delivery text-center text-colour">
-            <div class="row">
-                <div class="col-12 col-md-6 offset-md-6">
-                    <h2 class="delivery-header">We deliver straight to your door!</h2>
-                    <p class="delivery-info p-spacing">Choose from our extensive range of cakes, book in a delivery slot, and we'll deliver freshly baked deserts right to your door! our range includes delicious cup cakes, warm chocolate brownies, indulgent chocolate fudge cake, strawberries
-                        and cream cake for those fruit lovers and even cheese cakes.</p>
-                    <p class="delivery-info p-spacing">If there's anything in our recipes that you don't quite like we can take it out, or if there's a recipe you just love and it isn't on our list let us know and we'll see what we can do. We can also decorate cakes to your design as well,
-                        we are very inventive with our icing!</p>
-                    <p class="delivery-info p-spacing">Remember, all our cakes and desserts are baked to order so anything is possible!</p>
-                </div>
+        <Header class="section-container header-container" id="header_section">
+            <div class="overlay">
             </div>
-        </section>
-    </div>
+            <section class="text-center bring-front">
+                <h1 class="header">Sky's Bakery</h1>
+                <hr class="block-divider">
+                <p class="intro lg-padding">We deliver freshly baked goods straight to your door!
+                    </br>
+                    We are also available to cater events such as birthdays, weddings, Coorporate events and much more!
+                </p>
+            </section>
+        </header>
 
-    <!-- Catering service ------------------------------------------>
+        <!-- Delivery to your door -->
 
-    <div class="catering-container" id="catering_section">
-        <div class="overlay-sm"></div>
-        <section class="catering text-center text-colour">
-            <div class="row">
-                <div class="col-12 col-md-6">
-                    <h2 class="catering-header">Why not hire us?</h2>
-                    <p class="catering-info p-spacing">We can cater to all event types, be it baking the cake and deserts at a wedding or providing a monitored table of sweet treats for your staff to show them how much you appreciate them. We can also provide fun cake selections for celebrations
-                        such as birthday parties, baby showers, engagement parties, or any cause for celebration, we aren't picky! And if you choose our catering option you can relax and enjoy the fun knowing that we will be there to make sure nothing
-                        goes wrong!</p>
-                    <p class="catering-info p-spacing">Another benefit of choosing our catering option is that we will provide the perfect set up. Just tell us a bit about the event space and how much room we will have when you book us in and we'll provide the tables, appropriate decorations
-                        (unless you've told us you want use your own) and we'll lay everything out so it looks perfect!</p>
-                </div>
+        <section class="section-container delivery-container" id="delivery_section">
+            <div class="overlay-sm">
             </div>
-        </section>
-    </div>
-
-    <!-- Subscription service ------------------------------------------>
-
-    <div class="subscription-container" id="subscription_section">
-        <div class="overlay-sm"></div>
-        <section class="subscription text-center text-colour">
-            <div class="row">
-                <div class="col-12 col-md-6 offset-md-6">
-                    <h2 class="subscription-header">Love what you see? You can now subscribe to our weekly mail list!</h2>
-                    <p class="subscription-info p-spacing">We now offer a new subscription service where we will send you anything from weekly to monthly emails. These will include new offers and deals just for subscribers as well our favourite recipes and decoration ideas! We'll include step
-                        by step guides on how to acheive these recipes and decorations at home and we'll also include pictures of some of our recent events and favourite deserts as well. All you need to do is provide your email address and we'll do the
-                        rest!
-                    </p>
-                    <button type="button" class="btn btn-lg btn-light" data-toggle="modal" data-target="#subscribeModal">Subscribe!</button>
+            <section class="delivery text-center text-colour">
+                <div class="row">
+                    <div class="col-12 col-md-6 offset-md-6 p-padding">
+                        <h2 class="delivery-header">We deliver straight to your door!</h2>
+                        <p class="delivery-info p-spacing">Choose from our extensive range of cakes, book in a delivery slot, and we'll deliver freshly baked deserts right to your door! Our range includes delicious cup cakes, warm chocolate brownies, indulgent chocolate fudge cake, strawberries
+                            and cream cake for those fruit lovers and even cheese cakes.
+                        </p>
+                        <p class="delivery-info p-spacing">If there's anything in our recipes that you don't quite like we can take it out, or if there's a recipe you just love and it isn't on our list let us know and we'll see what we can do. We can also decorate cakes to your design
+                            as well, we are very inventive with our icing!
+                        </p>
+                        <p class="delivery-info p-spacing">Remember, all our cakes and desserts are baked to order so anything is possible!
+                        </p>
+                    </div>
                 </div>
-            </div>
+            </section>
         </section>
-    </div>
 
-    <!-- What we offer - prices ------------------------------------------>
+        <!-- Catering service -->
 
-    <div class="prices-container container-fluid" id="price_section">
-        <section class="prices">
+        <section class="section-container catering-container" id="catering_section">
+            <div class="overlay-sm">
+            </div>
+            <section class="catering text-center text-colour">
+                <div class="row">
+                    <div class="col-12 col-md-6 p-padding">
+                        <h2 class="catering-header">Why not hire us?</h2>
+                        <p class="catering-info p-spacing">We can cater to all event types, be it baking the cake and deserts at a wedding or providing a monitored table of sweet treats for your staff to show them how much you appreciate them. We can also provide fun cake selections for
+                            celebrations such as birthday parties, baby showers, engagement parties, or any cause for celebration, we aren't picky! And if you choose our catering option you can relax and enjoy the fun knowing that we will be there to
+                            make sure nothing goes wrong!
+                        </p>
+                        <p class="catering-info p-spacing">Another benefit of choosing our catering option is that we will provide the perfect set up. Just tell us a bit about the event space and how much room we will have when you book us in and we'll provide the tables, appropriate decorations
+                            (unless you've told us you want use your own) and we'll lay everything out so it looks perfect!
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <!-- Subscription service -->
+
+        <div class="section-container subscription-container" id="subscription_section">
+            <div class="overlay-sm">
+            </div>
+            <section class="subscription text-center text-colour">
+                <div class="row">
+                    <div class="col-12 col-md-6 offset-md-6 p-padding">
+                        <h2 class="subscription-header">Love what you see?
+                            </br>
+                            You can now subscribe to our weekly mail list!</h2>
+                        <p class="subscription-info p-spacing">We now offer a new subscription service where we will send you anything from weekly to monthly emails. These will include new offers and deals just for subscribers as well our favourite recipes and decoration ideas! We'll include
+                            step by step guides on how to acheive these recipes and decorations at home and we'll also include pictures of some of our recent events and favourite deserts as well. All you need to do is provide your email address and we'll
+                            do the rest!
+                        </p>
+                        <button type="button" class="btn btn-lg btn-light" data-toggle="modal" data-target="#subscribeModal">Subscribe!
+                        </button>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- What we offer - prices -->
+
+        <section class="prices-container container-fluid" id="price_section">
+            <!-- <section class="prices"> -->
             <div class="row">
                 <div class="col-12 text-center">
                     <h2 class="price-header">How much will it cost?</h2>
                 </div>
-                <div class="col-12 col-md-6 section-column">
+                <div class="col-12 col-md-6 section-column p-padding">
                     <h4 class="menu-subtitle">Cakes</h4>
                     <div class="menu-items">
                         <div class="key">
@@ -209,7 +226,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-6 section-column">
+                <div class="col-12 col-md-6 section-column p-padding">
                     <h4 class="menu-subtitle">Tray of 6 cupcakes</h4>
                     <div class="menu-items">
                         <div class="key">
@@ -267,90 +284,91 @@
                             <p>£12.99</p>
                         </div>
                     </div>
-                    <p class="bespoke-prices text-center">We also offer a range of bespoke cakes, including wedding cakes, made and decorated to your design or tailored by us to your event! Prices start from £20.99 so get in touch with your request and we'll give you a quote!</p>
+                    <p class="bespoke-prices text-center p-padding">We also offer a range of bespoke cakes, including wedding cakes, made and decorated to your design or tailored by us to your event! Prices start from £20.99 so get in touch with your request and we'll give you a quote!</p>
                 </div>
-                <div class="col-12 text-center">
+                <div class="col-12 text-center p-padding">
                     <p class="delivery-price">Delivery costs are standard and set at £6.99 for any address within a 10 mile radius of our kitchen. We'll then add on a further 50p per mile thereafter.</p>
                 </div>
-                <div class="col-12 text-center">
+                <div class="col-12 text-center p-padding">
                     <h3 class="catering-title">Catering Events</h3>
                     <p class="catering-price">We're available to hire for any and all events! We offer all kinds of packages depending on your needs, we can make everything, set it up and leave. Or, we can stay around to make sure everything runs smoothly and to serve what we
                         bake, either at designated tables or even walking around offering trays of our delicious treats to guests. It's totally up to you and your needs, just give us a call or send us an email and we'll get back to you with a quote or
                         for more information as soon as we can!</p>
                 </div>
             </div>
-    </div>
-    </section>
-    </div>
+            <!-- </section> -->
+        </section>
 
-    <!-- Contact Form ------------------------------------------>
+        <!-- Contact Form -->
 
-    <section class="contact-container" id="contact_section">
-        <div class="row contact-us">
-            <div class="col-12 text-center">
-                <h2 class="contact-header">Contact us today!</h2>
-            </div>
-            <div class="col-12 col-md-6 text-center">
-                <h3 class="contact-title">Contact form</h3>
-                <p class="contact-info">Got an event you want catering? Or an idea for the perfect birthday cake? Or even if you're just looking for us to deliver any of our menu items then get in touch using the form below with your requirements and make your vision reality.</p>
+        <section class="contact-container" id="contact_section">
+            <div class="row contact-us">
+                <div class="col-12 text-center p-padding">
+                    <h2 class="contact-header">Contact us today!</h2>
+                </div>
+                <div class="col-12 col-md-6 text-center p-padding">
+                    <h3 class="contact-title">Contact form</h3>
+                    <p class="contact-info">Got an event you want catering? Or an idea for the perfect birthday cake? Or even if you're just looking for us to deliver any of our menu items then get in touch using the form below with your requirements and make your vision reality.</p>
 
-                <div class="center-form">
-                    <form>
-                        <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required />
-                        <input type="text" name="email" id="emailaddress" class="form-control" placeholder="Email" required />
-                        <input type="text" name="phone" id="phonenumber" class="form-control" placeholder="Phone Number" />
-                        <textarea rows="10" name="requestinfo" id="requestinfo" class="form-control" placeholder="Type your query here" required></textarea>
-                        <div class="form-row text-center">
-                            <div class="col">
-                                <button type="submit" class="btn btn-light">Send email</button>
+                    <div class="center-form">
+                        <form>
+                            <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required />
+                            <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email" required />
+                            <input type="text" name="phone" id="phonenumber" class="form-control" placeholder="Phone Number" />
+                            <textarea rows="10" name="requestinfo" id="requestinfo" class="form-control" placeholder="Type your query here" required></textarea>
+                            <div class="form-row text-center">
+                                <div class="col">
+                                    <button type="submit" class="btn btn-light">Send email
+                                    </button>
+                                </div>
                             </div>
-                        </div>
-                    </form>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 text-center p-padding">
+                    <h3 class="contact-title">How to find us</h3>
+                    <p class="phone-number contact-p">Tel: 01234 567890</p>
+                    <p class="email-address contact-p">Email: skysbakery@cakemail.com</p>
+                    <p class="address contact-p">123 Bakers House
+                        <br>Cupcake Lane
+                        <br>Sweetsville
+                        <br>AB12 3CD</p>
+                    <h5 class="contact-shoutout">Remember, even if you receive a quote, you are under no obligation to book it in. So what are you waiting for?</h5>
                 </div>
             </div>
+        </section>
+    </main>
 
-            <div class="col-12 col-md-6 text-center">
-                <h3 class="contact-title">How to find us</h3>
-                <p class="phone-number contact-p">Tel: 01234 567890</p>
-                <p class="email-address contact-p">Email: skysbakery@cakemail.com</p>
-                <p class="address contact-p">123 Bakers House
-                    <br>Cupcake Lane
-                    <br>Sweetsville
-                    <br>AB12 3CD</p>
-                <h5 class="contact-shoutout">Remember, even if you receive a quote, you are under no obligation to book it in. So what are you waiting for?</h5>
-            </div>
-        </div>
-    </section>
+    <!-- Footer -->
 
-
-    <!-- Footer ------------------------------------------>
-
-    <footer class="container-fluid footer-container">
+    <footer class="container-fluid footer-container text-center">
         <div class="row">
-            <div class="col-12 col-md-6 col-lg-4">
-                <p>Here's a handy pdf of our 
-                    <a class="price-pdf" target="_blank" href="assets/images/price_list.pdf">
-                    menu!
-                </a>
+            <div class="col-12 col-md-6">
+                <p class="price-pdf">Here's a handy pdf of our menu!
                 </p>
+                <a class="btn btn-outline-info" target="_blank" href="assets/images/price_list.pdf" role="button">
+                    Download
+                    </a>
+
             </div>
-            <div class="col-12 col-md-6 col-lg-4">
+            <div class="col-12 col-md-6">
                 <p>Follow us on social media</p>
                 <ul class="list-inline social-links">
                     <li class="list-inline-item">
-                        <a target="_blank" href="#">
+                        <a target="_blank" href="https://www.facebook.com/">
                             <i class="fa fa-facebook" aria-hidden="true"></i>
                             <span class="sr-only">Facebook</span>
                         </a>
                     </li>
                     <li class="list-inline-item">
-                        <a target="_blank" href="#">
+                        <a target="_blank" href="https://twitter.com/?lang=en-gb">
                             <i class="fa fa-twitter" aria-hidden="true"></i>
                             <span class="sr-only">Twitter</span>
                         </a>
                     </li>
                     <li class="list-inline-item">
-                        <a target="_blank" href="#">
+                        <a target="_blank" href="https://www.instagram.com/">
                             <i class="fa fa-instagram" aria-hidden="true"></i>
                             <span class="sr-only">Instagram</span>
                         </a>
@@ -360,7 +378,7 @@
         </div>
     </footer>
 
-    <!-- Modal ------------------------------------------>
+    <!-- Modal -->
 
     <div class="modal" tabindex="-1" role="dialog" id="subscribeModal">
         <div class="modal-dialog" role="document">
@@ -369,16 +387,17 @@
                     <h5 class="modal-title">Subscribe to Sky's Bakery</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                   <span aria-hidden="true">&times;</span>
-                            </button>
+                    </button>
                 </div>
                 <div class="modal-body">
                     <form>
                         <div class="form-group">
                             <label for="exampleInputEmail1">Email address</label>
                             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                            <small class="form-text text-muted">We won't share your email with third parties!</small>
                         </div>
-                        <button type="submit" class="btn btn-light">Submit</button>
+                        <button type="submit" class="btn btn-light">Submit
+                        </button>
                     </form>
                 </div>
             </div>

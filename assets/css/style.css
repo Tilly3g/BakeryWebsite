@@ -20,7 +20,7 @@ h2 {
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(0,0,0,0.3);
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 .overlay-sm {
@@ -29,7 +29,7 @@ h2 {
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .bring-front {
@@ -39,6 +39,20 @@ h2 {
 .text-colour {
     color: #f8f9fa;
 }
+
+.section-container {
+        height: 100vh;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+
 /*----------------------------------------------------------------------------------------- Navbar---*/
 
 .navbar-style {
@@ -60,20 +74,12 @@ h2 {
     font-weight: bolder;
     color: #000
 }
+
 /*----------------------------------------------------------------------------------------- Header ---*/
 
 .header-container {
     height: 100vh;
     background: url("../images/Bakery.jpg") no-repeat bottom right fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
 }
 
 .header {
@@ -92,49 +98,19 @@ h2 {
 /*----------------------------------------------------------------------------------------- Delivery to your door ---*/
 
 .delivery-container {
-    height: 100vh;
     background: url("../images/orange_cupcake_og.jpg") no-repeat top center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
 }
 
 /*----------------------------------------------------------------------------------------- Catering ---*/
 
 .catering-container {
-    height: 100vh;
     background: url("../images/brownies_og.jpg") no-repeat bottom left fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
 }
 
 /*----------------------------------------------------------------------------------------- Subscription ---*/
 
 .subscription-container {
-    height: 100vh;
     background: url("../images/choc_cake.jpg") no-repeat center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
 }
 
 /*------------------------------------------------------------------------------------------- Prices --------*/
@@ -162,6 +138,9 @@ h2 {
 .delivery-price {
     margin-top: 30px;
     margin-bottom: 50px;
+    font-family: "Indie Flower", sans-serif;
+    font-weight: bolder;
+    font-size: larger;
 }
 
 .catering-price {
@@ -200,6 +179,8 @@ h2 {
 .menu-items .value {
     width: 30%;
     position: relative;
+    font-size: large;
+    font-weight: bolder;
 }
 
 /*----------------------------------------------------------------------------------------- Contact form ---*/
@@ -223,7 +204,7 @@ h2 {
 }
 
 .center-form {
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 
 .contact-p {
@@ -247,18 +228,30 @@ h2 {
 
 .footer-container {
     background-color: #f8f9fa;
+    margin-top: 30px;
+    padding-top: 15px;
 }
 
-.price-pdf {
-    color: #636a71
+.price-pdf{
+    margin-bottom: 7px;    
+}
+
+.social-links i {
+    color: #17a2b8;
+    font-size: 20px;
+    padding-left: 7.5px;
+    padding-right: 7.5px;
+}
+
+.social-links i:hover {
+    color: #177888;
 }
 
 /*----------------------------------------------------------------------------------------- Media Queries ---*/
 
 @media(min-width: 992px) {
-    .header-container {
+    .section-container {
         height: 100vh;
-        background: url("../images/bakery.jpg") no-repeat bottom right fixed;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -268,13 +261,15 @@ h2 {
         align-items: center;
         justify-content: center;
         position: relative;
+    }
+    .header-container {
+        background: url("../images/bakery.jpg") no-repeat bottom right fixed;
     }
 }
 
-@media(min-width: 720px) {
-    .delivery-container {
+@media(min-width: 768px) {
+    .section-container {
         height: 100vh;
-        background: url("../images/orange_cupcakes.jpg") no-repeat bottom center fixed;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -285,64 +280,60 @@ h2 {
         justify-content: center;
         position: relative;
     }
+    .delivery-container {
+        background: url("../images/orange_cupcakes.jpg") no-repeat bottom center fixed;
+    }
     .catering-container {
-        height: 100vh;
         background: url("../images/brownies.jpg") no-repeat bottom center fixed;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
-
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        position: relative;
     }
+    /*-- the above needed to be added or the background wouldn't cover the section for this one --*/
     .subscription-container {
-    height: 100vh;
-    background: url("../images/choc.jpg") no-repeat center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+        background: url("../images/choc.jpg") no-repeat center fixed;
+    }
+    .contact-container {
+        height: 90vh;
+    }
+    .intro {
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-}
-.contact-container {
-    height: 90vh;
-}
-.intro {
-    
-    font-size: 30px;
-}
-.header {
-    color: #f8f9fa;
-    font-size: 100px;
-}
-.delivery-header {
-    margin-bottom: 100px;
-}
-.catering-header {
-    margin-bottom: 100px;
-}
-.subscription-header {
-    margin-bottom: 100px;
-}
-.p-spacing {
-    margin-bottom: 70px;
-}
-.text-colour {
-    color: #000;
-}
-.overlay-sm {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0,0,0,0);
-}
+        font-size: 30px;
+    }
+    .header {
+        color: #f8f9fa;
+        font-size: 100px;
+    }
+    .delivery-header {
+        margin-bottom: 100px;
+    }
+    .catering-header {
+        margin-bottom: 100px;
+    }
+    .subscription-header {
+        margin-bottom: 100px;
+    }
+    .p-spacing {
+        margin-bottom: 70px;
+    }
+    .text-colour {
+        color: #000;
+    }
+    .overlay-sm {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0);
+    }
+    .p-padding {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .lg-padding {
+        padding-left: 15%;
+        padding-right: 15%;
+    }
 }
