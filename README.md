@@ -60,7 +60,7 @@ User type examples:
 
 ### Features Left to Implement
 - In the future I would like to include a gallery on the website of custom deserts that the bakery has made and events that they have catered to show 
-- what they can do. This would involve gaining permission from the customers first as well.
+  what they can do. This would involve gaining permission from the customers first as well.
 - I would also like to include a booking form that makes it easier to check availability and also, if the customer just want’s items off the existing 
   menu delivered, a way to book this in automatically through the website. It would need to include a system that responds with a confirmation email to 
   let the customer know the booking has gone through and a way to take payments online.
@@ -92,8 +92,8 @@ User type examples:
     section. The nav bar also collapses correctly when the screen size is smaller with a button that expands it when pressed.
 
 Screensizes and Devices:
-- I tested my project to make sure it worked correctly and all text and features fit well on every device given using 'inspect' when viewing the site
-  in a browser and also that it transitioned at appropriate points when changing the screensize gradually.
+- I tested my project to make sure it worked correctly and all text and features fit well on every device given using Chrome Developer Tools when viewing 
+  the site in a browser and also that it transitioned at appropriate points when changing the screensize gradually.
 - I tested my site worked well on a range of browsers such as Chrome, Firefox and Safari.
 - I tested my site on a range of mobile devices with different screen sizes including Moto G6 Play, Samsung s7, Samsung s8, iPhone 5s, iPhone 6 and Huawei
   y6.
@@ -116,8 +116,10 @@ directory again using the cd command and ls will bring up a list of the files. T
 
 ### Media
 - The photos used in this site were obtained from [flickr](https://www.flickr.com/photos/30478819@N08/31204647918), [flickr](https://www.flickr.com/photos/kjgarbutt/5646267965), 
-  [Max Pixel)[https://www.maxpixel.net/Baking-Cake-Baking-Baking-Powder-Cake-Baking-Soda-2589517) and [pxhere](https://pxhere.com/en/photo/708098)
+  [Max Pixel](https://www.maxpixel.net/Baking-Cake-Baking-Baking-Powder-Cake-Baking-Soda-2589517) and [pxhere](https://pxhere.com/en/photo/708098)
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
+- I received inspiration for this project from my mum. She is an avid baker and the moment I told her I needed to build a website she instantly came up
+  with the idea that it should be for a bakery! My friend also once had a small business delivering home made brownies to neighbours as well which gave 
+  me the idea to make it a delivery service.
