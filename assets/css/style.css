@@ -14,6 +14,11 @@ h2 {
     font-family: "Dancing Script", sans-serif;
 }
 
+.container-fluid {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
 .overlay {
     position: absolute;
     top: 0;
@@ -209,7 +214,7 @@ h2 {
 }
 
 .center-form {
-    margin-bottom: 30px;
+    margin-bottom: 15px;
 }
 
 .contact-p {
@@ -302,7 +307,7 @@ h2 {
         -o-background-size: cover;
         background-size: cover;
     }
-    .contact-container {
+    contact-container {
         height: 90vh;
     }
     .intro {
@@ -343,6 +348,15 @@ h2 {
         padding-left: 15%;
         padding-right: 15%;
     }
+    .contact-title {
+        padding-bottom: 10px;
+    }
+    .contact-info {
+        padding-bottom: 10px;
+    }
+    .contact-p {
+        padding-bottom: 5px;
+    }
 }
 
 @media(min-width: 1600px) {
@@ -365,6 +379,9 @@ h2 {
     .menu-items .value {
         font-size: larger;
     }
+    .contact-header {
+        padding-bottom: 50px;
+    }
     .contact-title {
         padding-bottom: 100px;
     }
@@ -373,5 +390,8 @@ h2 {
     }
     .contact-p {
         padding-bottom: 75px;
+    }
+    .center-form {
+    margin-bottom: 75px;
     }
 }
