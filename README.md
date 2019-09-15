@@ -95,7 +95,8 @@ I created an initial wireframe for the project using [Lucid Chart](https://www.l
 Screensizes and Devices:
 - I tested my project to make sure it worked correctly and all text and features fit well on every device given using Chrome Developer Tools when viewing 
   the site in a browser and also that it transitioned at appropriate points when changing the screensize gradually.
-- I tested my site worked well on a range of browsers such as Chrome, Firefox and Safari.
+- I tested my site worked well on a range of browsers such as Chrome, Firefox and Safari as well as a range of laptops such as a MacBook Pro, Dell 
+  Inspiron 7537 and a ThinkVision 4K external screen.
 - I tested my site on a range of mobile devices with different screen sizes including Moto G6 Play, Samsung s7, Samsung s8, iPhone 5s, iPhone 6 and Huawei
   y6.
 
@@ -113,11 +114,15 @@ directory again using the cd command and ls will bring up a list of the files. T
 ## Credits
 
 ### Content
-- The code used for the full page background was copied from [CSS-TRICKS, article ‘Perfect Full Page Background Image'](https://css-tricks.com/perfect-full-page-background-image/)
+- The code used for the full page background was copied from [CSS-TRICKS, article ‘Perfect Full Page Background Image'](https://css-tricks.com/perfect-full-page-background-image/).
+- The code used to create the collapsing navbar on smaller screens was edited from [Code Institute](https://codeinstitute.net/) from the
+  module 'User Centric Front End Design', part 'Bootstrapping Your Next Big Idea With Bootstrap 4'.
+- The code used to create the menu with the prices next to the name of the cakes was edited from [Code Institute](https://codeinstitute.net/) from the
+  module 'User Centric Front End Design', part 'Putting It All Together | Mini Project with Bootstrap 4'
 
 ### Media
 - The photos used in this site were obtained from [flickr](https://www.flickr.com/photos/30478819@N08/31204647918), [flickr](https://www.flickr.com/photos/kjgarbutt/5646267965), 
-  [Max Pixel](https://www.maxpixel.net/Baking-Cake-Baking-Baking-Powder-Cake-Baking-Soda-2589517) and [pxhere](https://pxhere.com/en/photo/708098)
+  [Max Pixel](https://www.maxpixel.net/Baking-Cake-Baking-Baking-Powder-Cake-Baking-Soda-2589517) and [pxhere](https://pxhere.com/en/photo/708098).
 
 ### Acknowledgements
 
