@@ -72,6 +72,7 @@ h2 {
 .contact-link {
     font-family: "Indie Flower", sans-serif;
     font-weight: bolder;
+    font-size: larger;
     color: #000
 }
 
@@ -256,10 +257,6 @@ h2 {
 @media(min-width: 992px) {
     .section-container {
         height: 100vh;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
 
         display: flex;
         align-items: center;
@@ -309,7 +306,6 @@ h2 {
         height: 90vh;
     }
     .intro {
-
         font-size: 30px;
     }
     .header {
@@ -346,5 +342,36 @@ h2 {
     .lg-padding {
         padding-left: 15%;
         padding-right: 15%;
+    }
+}
+
+@media(min-width: 1600px) {
+    h2 {
+        font-size: 40px;
+    }
+    h3 {
+        font-size: 30px;
+    }
+    h4 {
+        font-size: 25px;
+    }
+    .xl-padding {
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+    .xl-font {
+        font-size: large;
+    }
+    .menu-items .value {
+        font-size: larger;
+    }
+    .contact-title {
+        padding-bottom: 100px;
+    }
+    .contact-info {
+        padding-bottom: 100px;
+    }
+    .contact-p {
+        padding-bottom: 75px;
     }
 }
