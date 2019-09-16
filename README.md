@@ -71,7 +71,7 @@ I created an initial wireframe for the project using [Lucid Chart](https://www.l
 
 - [Bootstrap](https://getbootstrap.com/)
     - The project uses bootstrap for the columns feature and to be able to provide a collapsable navigation menu when viewing the website on smaller 
-      screens.
+      screens. It also allowed the use of modals and other functions such as forms.
 
 - [Fontawesome](https://fontawesome.com/)
     - To allow the use of icons and social logos on the page.
