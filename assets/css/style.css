@@ -15,8 +15,8 @@ h2 {
 }
 
 .container-fluid {
-    padding-left: 0px;
-    padding-right: 0px;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .overlay {
@@ -46,17 +46,17 @@ h2 {
 }
 
 .section-container {
-        height: 100vh;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
+    height: 100vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        position: relative;
-    }
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
 
 /*----------------------------------------------------------------------------------------- Navbar---*/
 
@@ -139,6 +139,7 @@ h2 {
     font-family: "Dancing Script", sans-serif;
     margin-top: 25px;
     margin-bottom: 25px;
+    margin-left: 10px;
 }
 
 .bespoke-prices {
@@ -164,6 +165,7 @@ h2 {
 
 .menu-items {
     margin-bottom: 10px;
+    margin-left: 10px;
     display: block;
     clear: both;
 }
@@ -270,7 +272,7 @@ h2 {
     }
     .header-container {
         background: url("../images/bakery.jpg") no-repeat bottom right fixed;
-         -webkit-background-size: cover;
+        -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
@@ -306,9 +308,6 @@ h2 {
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
-    }
-    contact-container {
-        height: 90vh;
     }
     .intro {
         font-size: 30px;
