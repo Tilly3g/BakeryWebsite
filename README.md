@@ -10,7 +10,7 @@ how it will work and what the finished product will look like, you can be as spe
 ## Deployment
 The website is deployed at https://tilly3g.github.io/BakeryWebsite/.
 
-In order to deploy the game locally, click download and copy the link provided. Next go to your terminal and navigate to the desired directory, then use 'git clone' and paste in the link you just copied. This can then be opened in your choice of editor.
+In order to deploy the website locally, click download and copy the link provided. Next go to your terminal and navigate to the desired directory, then use 'git clone' and paste in the link you just copied. This can then be opened in your choice of editor.
 
 ## Credits
 
