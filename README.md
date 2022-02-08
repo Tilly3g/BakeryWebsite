@@ -1,11 +1,6 @@
 # Sky's Bakery
 
-Sky's Bakery is a website for an online based bakery that specialises in home delivery of cakes and other deserts. They are also available to cater events
-such as party's, weddings etc as well. This can include set up and take down but also, if desired, staffing the event as well! 
-
-Sky's bakery are very diverse and are happy to take on a challenge if you have a design in mind for the perfect cake! They can provide a quote and discuss 
-how it will work and what the finished product will look like, you can be as specific or general as you like with the details, they'll work something out!
-
+This is the first website I built, it only uses HTML/CSS, with some javascript functionality from Bootstrap. and is a one page design for a made up bakery I named "Sky's Bakery". This bakery does not exist.
 
 ## Deployment
 The website is deployed at https://tilly3g.github.io/BakeryWebsite/.
